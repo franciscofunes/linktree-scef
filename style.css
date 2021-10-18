@@ -18,6 +18,11 @@ body{
 .container{
     width: 30em;
 }
+
+.fa {
+    margin: 0 25px 0 10px;
+}
+
 .head__section img{
     display: block;
     margin: 0 auto;
