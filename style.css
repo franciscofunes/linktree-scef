@@ -84,8 +84,11 @@ body{
 .social__links ul .censal:hover{
     background: pink;
 } 
+.social__links ul .mia:hover{
+    background: yellow;
+} 
 @media only screen and (max-width: 549px) {
     .container{
-        width: 88vw;
+        width: 85vw;
     }
   }
