@@ -29,7 +29,7 @@ body{
 .head__section img{
     display: block;
     margin: 0 auto;
-    margin-top: 5px;
+    margin-top: 10px;
     height: 6rem;
     width: 6rem;
     object-fit: cover;
@@ -45,7 +45,6 @@ body{
     margin: 1.2rem 0;
     padding: 0.4rem 0.8rem;
     background: black;
-    
     border-radius: 5px;
     @media only screen and (min-width: 768px) {
       /* For desktop: */
@@ -57,7 +56,7 @@ body{
     }
 }
 .js-tilt-glare{
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .social__links ul li a{
     width: 100%;
@@ -70,9 +69,10 @@ body{
     text-align: center;
     line-height: 4rem;
     font-size: 1.8rem;
-    text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
+    
     @media only screen and (min-width: 768px) {
       /* For desktop: */
+      text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
       transform: scale(1.4) translateZ(50px);
       transition: 0.25s;
     }
