@@ -47,10 +47,13 @@ body{
     background: black;
     backdrop-filter: blur( 0px );
     border-radius: 5px;
-    transition: background 0.25s;
-    transform-style: preserve-3d;
-    perspective: 500px;
-    box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+    @media only screen and (min-width: 768px) {
+      /* For desktop: */
+      transition: background 0.25s;
+      transform-style: preserve-3d;
+      perspective: 500px;
+      box-shadow: 0 0 0.8rem  rgba(255, 255, 255, .12);
+    }
 }
 .js-tilt-glare{
     border-radius: 3px;
@@ -67,8 +70,11 @@ body{
     line-height: 4rem;
     font-size: 1.8rem;
     text-shadow: 2px 2px 12px rgba(0, 0, 0, 0.5);
-    transform: scale(1.4) translateZ(50px);
-    transition: 0.25s;
+    @media only screen and (min-width: 768px) {
+      /* For desktop: */
+      transform: scale(1.4) translateZ(50px);
+      transition: 0.25s;
+    }
 }
 .social__links ul li a span{
     line-height: 1.4rem;
