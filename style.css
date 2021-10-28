@@ -109,12 +109,8 @@ body{
     background: #FF6F61;
 } 
 .footer-dark {
-  padding:50px 0;
-  color:#f0f9ff;
-  background-color:#282d32;
-}
-.footer-dark {
-  padding:50px 0;
+  padding:25px 0;
+  margin-botton:15px;
   color:#f0f9ff;
   background-color:#282d32;
 }
@@ -125,7 +121,7 @@ body{
   font-weight:bold;
   font-size:16px;
 }
-
+ 
 .footer-dark ul {
   padding:0;
   list-style:none;
