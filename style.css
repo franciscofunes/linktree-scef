@@ -81,6 +81,9 @@ body{
 .social__links ul .github:hover{
     background: #333;
 } 
+.social__links ul .censal:hover{
+    background: pink;
+} 
 @media only screen and (max-width: 549px) {
     .container{
         width: 88vw;
