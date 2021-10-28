@@ -142,6 +142,7 @@ body{
 
 .footer-dark .item.social {
   text-align:center;
+  margin-bottom:10px;
 }
 
 @media (max-width:991px) {
