@@ -43,7 +43,7 @@ body{
     width: 100%;
     margin: 1.2rem 0;
     padding: 0.4rem 0.8rem;
-    background: rgb(161,130,225);
+    background: black;
     backdrop-filter: blur( 0px );
     border-radius: 5px;
     transition: background 0.25s;
