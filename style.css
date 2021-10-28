@@ -45,10 +45,11 @@ body{
     margin: 1.2rem 0;
     padding: 0.4rem 0.8rem;
     background: black;
-    backdrop-filter: blur( 0px );
+    
     border-radius: 5px;
     @media only screen and (min-width: 768px) {
       /* For desktop: */
+      backdrop-filter: blur( 0px );
       transition: background 0.25s;
       transform-style: preserve-3d;
       perspective: 500px;
