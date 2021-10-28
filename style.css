@@ -97,7 +97,16 @@ body{
     background: pink;
 } 
 .social__links ul .mia:hover{
-    background: yellow;
+    background: orange;
+} 
+.social__links ul .sge:hover{
+    background: orange;
+} 
+.social__links ul .listado_titulares:hover{
+    background: purple;
+} 
+.social__links ul .listado_suplentes:hover{
+    background: #FF6F61;
 } 
 @media only screen and (max-width: 549px) {
     .container{
