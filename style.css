@@ -29,6 +29,7 @@ body{
 .head__section img{
     display: block;
     margin: 0 auto;
+    margin-top: 5px;
     height: 6rem;
     width: 6rem;
     object-fit: cover;
