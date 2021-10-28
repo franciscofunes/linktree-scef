@@ -12,7 +12,10 @@ body{
     height: 95vh;
     display: grid;
     place-items: center;
-    background: #61299e;
+    background: -moz-linear-gradient(90deg, rgba(161,130,225,1) 0%, rgba(168,62,181,0.9177865401558254) 38%, rgba(255,27,250,0.6511198624320652) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(161,130,225,1) 0%, rgba(168,62,181,0.9177865401558254) 38%, rgba(255,27,250,0.6511198624320652) 100%);
+    background: linear-gradient(90deg, rgba(161,130,225,1) 0%, rgba(168,62,181,0.9177865401558254) 38%, rgba(255,27,250,0.6511198624320652) 100%);
+    filter: progid:DXImageTransform.Microsoft.
     font-family: 'Nunito', sans-serif;
 }
 .container{
@@ -40,7 +43,7 @@ body{
     width: 100%;
     margin: 1.2rem 0;
     padding: 0.4rem 0.8rem;
-    background: rgba( 255, 255, 255, 0.1 );
+    background: rgb(161,130,225);
     backdrop-filter: blur( 0px );
     border-radius: 5px;
     transition: background 0.25s;
@@ -89,6 +92,6 @@ body{
 } 
 @media only screen and (max-width: 549px) {
     .container{
-        width: 85vw;
+        width: 88vw;
     }
   }
