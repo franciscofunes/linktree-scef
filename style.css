@@ -108,6 +108,21 @@ body{
 .social__links ul .listado_suplentes:hover{
     background: #FF6F61;
 } 
+.social__links ul .guia_covid:hover{
+  background: #70c385;
+} 
+.social__links ul .ideas_movimiento:hover{
+  background: #a91a5a;
+} 
+.social__links ul .listado_suplentes:hover{
+  background: #6686b1;
+} 
+.social__links ul .inscripcion_escolar:hover{
+  background: #6fdff6;
+} 
+.social__links ul .programa_movimiento:hover{
+  background: #d81fc8;
+} 
 .footer-dark {
   padding:10px 0 10px 0;
   color:#f0f9ff;
