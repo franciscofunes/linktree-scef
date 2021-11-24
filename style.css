@@ -187,6 +187,15 @@ body{
   opacity:0.9;
 }
 
+.img-fluid {
+  margin-bottom: 10px; 
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 50%; 
+  border-radius: 5px;
+}
+
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align:center;
