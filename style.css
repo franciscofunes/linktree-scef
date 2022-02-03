@@ -123,6 +123,12 @@ body{
 .social__links ul .programa_movimiento:hover{
   background: #d81fc8;
 } 
+.social__links ul .postitulos__docentes:hover{
+  background: #34e460;
+} 
+.social__links ul .inscripcion__profesorados:hover{
+  background: #f3741f;
+} 
 .footer-dark {
   padding:10px 0 10px 0;
   color:#f0f9ff;
