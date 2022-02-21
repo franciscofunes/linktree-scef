@@ -15,7 +15,6 @@ body{
     background: -moz-linear-gradient(90deg, rgba(161,130,225,1) 0%, rgba(168,62,181,0.9177865401558254) 38%, rgba(255,27,250,0.6511198624320652) 100%);
     background: -webkit-linear-gradient(90deg, rgba(161,130,225,1) 0%, rgba(168,62,181,0.9177865401558254) 38%, rgba(255,27,250,0.6511198624320652) 100%);
     background: linear-gradient(90deg, rgba(161,130,225,1) 0%, rgba(168,62,181,0.9177865401558254) 38%, rgba(255,27,250,0.6511198624320652) 100%);
-    filter: progid:DXImageTransform.Microsoft.
     font-family: 'Nunito', sans-serif;
 }
 .container{
@@ -90,6 +89,9 @@ body{
 .social__links ul .telegram:hover{
     background:#0088cc;
 }
+.social__links ul .contenedor_digital:hover{
+    background:#ebab16;
+}
 .social__links ul .github:hover{
     background: #333;
 } 
@@ -127,7 +129,7 @@ body{
   background: #34e460;
 } 
 .social__links ul .inscripcion__profesorados:hover{
-  background: #f3741f;
+  background: #ff92c5;
 } 
 .footer-dark {
   padding:10px 0 10px 0;
