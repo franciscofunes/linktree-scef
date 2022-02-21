@@ -131,6 +131,9 @@ body{
 .social__links ul .inscripcion__profesorados:hover{
   background: #ff92c5;
 } 
+.social__links ul .ciclo__lectivo:hover{
+  background: #858d16;
+}
 .footer-dark {
   padding:10px 0 10px 0;
   color:#f0f9ff;
