@@ -81,7 +81,7 @@ body{
     line-height: 1.4rem;
 }
 .social__links ul .instagram:hover{
-    background: #fd5949;
+    background: #f57d0d;
 }
 .social__links ul .youtube:hover{
     background:#FF0000;
@@ -126,7 +126,7 @@ body{
   background: #d81fc8;
 } 
 .social__links ul .postitulos__docentes:hover{
-  background: #34e460;
+  background: #4059eb;
 } 
 .social__links ul .inscripcion__profesorados:hover{
   background: #ff92c5;
