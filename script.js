@@ -22,18 +22,12 @@ function myFunction() {
         } else {
           li[i].style.display = "none";
         }
+    }
 
-        if (txtValue.toUpperCase().indexOf(filter) === 0) {
-          var p = document.createElement("p");
-          p.textContent = "No se encontraron resultados 💡";
-          document.body.appendChild(p);
-        }
-        
-        if (txtValue.toUpperCase().indexOf(filter) > -1) {
-          li[i].style.display = "";
-        } else {
-          li[i].style.display = "none";
-        }
+    if (txtValue.toUpperCase().indexOf(filter) === 0) {
+        var p = document.createElement("p");
+        p.textContent = "No se encontraron resultados 💡";
+        document.body.appendChild(p);
     }
 }
 
