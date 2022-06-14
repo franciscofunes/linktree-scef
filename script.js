@@ -28,8 +28,12 @@ function myFunction() {
           p.textContent = "No se encontraron resultados 💡";
           document.body.appendChild(p);
         }
-
         
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          li[i].style.display = "";
+        } else {
+          li[i].style.display = "none";
+        }
     }
 }
 
