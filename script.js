@@ -19,8 +19,9 @@ function myFunction() {
 
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
-
-        } 
+        } else {
+          li[i].style.display = "none";
+        }
 
         if (txtValue.toUpperCase().indexOf(filter) === 0) {
           var p = document.createElement("p");
@@ -28,7 +29,7 @@ function myFunction() {
           document.body.appendChild(p);
         }
 
-        li[i].style.display = "none";
+        
     }
 }
 
