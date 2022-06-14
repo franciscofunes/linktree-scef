@@ -16,15 +16,18 @@ function myFunction() {
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         txtValue = a.textContent || a.innerText;
+
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
 
         } 
-        if (txtValue.toUpperCase().indexOf(filter) === 0 {
+
+        if (txtValue.toUpperCase().indexOf(filter) === 0) {
           var p = document.createElement("p");
           p.textContent = "No se encontraron resultados 💡";
           document.body.appendChild(p);
         }
+
         li[i].style.display = "none";
     }
 }
