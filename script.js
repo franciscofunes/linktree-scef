@@ -24,7 +24,7 @@ function myFunction() {
         }
     }
 
-    if (txtValue.toUpperCase().indexOf(filter) === 1) {
+    if (txtValue.toUpperCase().indexOf(filter) === 0 && i === 1) {
         var p = document.createElement("p");
         p.textContent = "No se encontraron resultados 💡";
         document.body.appendChild(p);
