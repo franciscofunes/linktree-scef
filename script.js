@@ -19,6 +19,9 @@ function myFunction() {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
+            var p = document.createElement("p");
+            p.textContent = "No se encontraron resultados 💡";
+            document.body.appendChild(p);
         }
     }
 }
