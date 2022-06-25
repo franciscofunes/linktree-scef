@@ -192,6 +192,10 @@ body {
 	margin-top: 10px;
 }
 
+.sublink:hover {
+	color: lightblue;
+}
+
 @media (max-width: 991px) {
 	.footer-dark .item.social {
 		text-align: center;
