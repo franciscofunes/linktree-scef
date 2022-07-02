@@ -54,6 +54,7 @@ body {
 	width: 6rem;
 	object-fit: cover;
 	border-radius: 50%;
+	filter: drop-shadow(0px 0px 16px #44450D)
 }
 
 .head__section p {
