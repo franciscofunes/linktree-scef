@@ -11,6 +11,11 @@ a {
 	text-decoration: none;
 }
 
+.iframe-container {
+	background: rgb(255, 252, 233);
+	background: linear-gradient(219deg, rgba(255, 252, 233, 1) 0%, rgba(212, 29, 253, 1) 41%, rgba(255, 149, 251, 0.6033350840336135) 100%);
+}
+
 body {
 	height: 95vh;
 	display: grid;
