@@ -15,9 +15,9 @@
     <title>SCEF CABA - ESCENARIOS COMBINADOS VIDEOS</title>
   </head>
   <div class="container">
-    <h1>Escenarios Combinados Videos</h1>
+    <h1 class="iframe-title">Escenarios Combinados Videos</h1>
     <div class="video_wrapper">
-      <div style="padding:56.25% 0 0 0;position:relative;">
+      <div style="padding:60% 0 0 0;position:relative;">
         <iframe
           src="https://player.vimeo.com/video/726323598?h=2d124585bc"
           style="position:absolute;top:0;left:0;width:100%;height:100%;"
@@ -26,8 +26,6 @@
           mozallowfullscreen
           allowfullscreen
         ></iframe>
-      </div>
-      <div style="padding:56.25% 0 0 0;position:relative;">
         <iframe
           src="https://player.vimeo.com/video/726322933?h=82d100725d"
           style="position:absolute;top:0;left:0;width:100%;height:100%;"
@@ -37,28 +35,40 @@
           allowfullscreen
         ></iframe>
       </div>
+      <a class="return-button" href="https://scefcaba.netlify.com/">Volver</a>
     </div>
-    <a class="return-button" href="https://scefcaba.netlify.com/">Volver</a>
   </div>
 </html>
 
 <style>
+  iframe {
+      border-radius: 20px;
+  }
+
   .container {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
-    background-color: bisque;
+    background: -moz-linear-gradient(90deg,
+     rgba(161, 130, 225, 1) 0%,
+     rgba(168, 62, 181, 0.9177865401558254) 38%,
+     rgba(255, 27, 250, 0.6511198624320652) 100%);
+     background: -webkit-linear-gradient(90deg,
+     rgba(161, 130, 225, 1) 0%,
+     rgba(168, 62, 181, 0.9177865401558254) 38%,
+     rgba(255, 27, 250, 0.6511198624320652) 100%);
+     background: linear-gradient(90deg,
+     rgba(161, 130, 225, 1) 0%,
+     rgba(168, 62, 181, 0.9177865401558254) 38%,
+     rgba(255, 27, 250, 0.6511198624320652) 100%);
+     font-family: 'Nunito', sans-serif;
   }
 
   .video_wrapper {
     width: 400px;
-  }
-
-  iframe {
-      border-radius: 20px;
   }
 
   .return-button {
